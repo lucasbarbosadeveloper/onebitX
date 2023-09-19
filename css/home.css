@@ -1,0 +1,79 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+* {
+  color: #fff;
+}
+
+body {
+  background-color: #000;
+}
+
+.c-navbar {
+  border: none !important;
+}
+
+.c-equip3 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imgs/home/01.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+}
+.c-equip3 .c-equip3-card {
+  border: none;
+  margin-top: 13rem;
+}
+
+.c-equip2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imgs/home/03.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+}
+.c-equip2 .c-equip2-card {
+  border: none;
+  margin-top: 13rem;
+}
+
+.dragon {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imgs/home/02.gif);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+}
+.dragon .dragon-card {
+  border: none;
+  margin-top: 13rem;
+}
+
+.starship {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imgs/home/04.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+}
+.starship .starship-card {
+  border: none;
+  margin-top: 13rem;
+}
+
+.c-footer {
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 30rem;
+  font-size: 0.8rem;
+}
+
+/*# sourceMappingURL=home.css.map */

@@ -20,6 +20,12 @@ body {
   border: none;
   margin-top: 13rem;
 }
+.c-equip3 .c-navbar__link {
+  text-shadow: 0px 0px 5px black;
+}
+.c-equip3 h1, .c-equip3 h5 {
+  text-shadow: 0px 0px 5px black;
+}
 
 .c-equip2 {
   width: 100%;
@@ -33,6 +39,9 @@ body {
 .c-equip2 .c-equip2-card {
   border: none;
   margin-top: 13rem;
+}
+.c-equip2 h1, .c-equip2 h5 {
+  text-shadow: 0px 0px 5px black;
 }
 
 .dragon {
@@ -48,6 +57,9 @@ body {
   border: none;
   margin-top: 13rem;
 }
+.dragon h1, .dragon h5 {
+  text-shadow: 0px 0px 5px black;
+}
 
 .starship {
   width: 100%;
@@ -61,6 +73,9 @@ body {
 .starship .starship-card {
   border: none;
   margin-top: 13rem;
+}
+.starship h1, .starship h5 {
+  text-shadow: 0px 0px 5px black;
 }
 
 .c-footer {

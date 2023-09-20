@@ -24,6 +24,12 @@ body {
   border: none;
   margin-top: 13rem;
 }
+.c-equip3 .c-navbar__link {
+  text-shadow: 0px 0px 5px black;
+}
+.c-equip3 h1, .c-equip3 h5 {
+  text-shadow: 0px 0px 5px black;
+}
 
 .c-equip2 {
   width: 100%;
@@ -37,6 +43,9 @@ body {
 .c-equip2 .c-equip2-card {
   border: none;
   margin-top: 13rem;
+}
+.c-equip2 h1, .c-equip2 h5 {
+  text-shadow: 0px 0px 5px black;
 }
 
 .dragon {
@@ -52,6 +61,9 @@ body {
   border: none;
   margin-top: 13rem;
 }
+.dragon h1, .dragon h5 {
+  text-shadow: 0px 0px 5px black;
+}
 
 .starship {
   width: 100%;
@@ -65,6 +77,9 @@ body {
 .starship .starship-card {
   border: none;
   margin-top: 13rem;
+}
+.starship h1, .starship h5 {
+  text-shadow: 0px 0px 5px black;
 }
 
 .c-footer {
@@ -97,6 +112,12 @@ body {
   border: none;
   margin-top: 13rem;
 }
+.c-equip3 .c-navbar__link {
+  text-shadow: 0px 0px 5px black;
+}
+.c-equip3 h1, .c-equip3 h5 {
+  text-shadow: 0px 0px 5px black;
+}
 
 .c-equip2 {
   width: 100%;
@@ -110,6 +131,9 @@ body {
 .c-equip2 .c-equip2-card {
   border: none;
   margin-top: 13rem;
+}
+.c-equip2 h1, .c-equip2 h5 {
+  text-shadow: 0px 0px 5px black;
 }
 
 .dragon {
@@ -125,6 +149,9 @@ body {
   border: none;
   margin-top: 13rem;
 }
+.dragon h1, .dragon h5 {
+  text-shadow: 0px 0px 5px black;
+}
 
 .starship {
   width: 100%;
@@ -138,6 +165,9 @@ body {
 .starship .starship-card {
   border: none;
   margin-top: 13rem;
+}
+.starship h1, .starship h5 {
+  text-shadow: 0px 0px 5px black;
 }
 
 .c-footer {
@@ -166,6 +196,9 @@ body {
 }
 .c-header .c-falcon h1 {
   font-family: "Rubik", sans-serif;
+}
+.c-header .c-navbar__link {
+  text-shadow: 0px 0px 5px black;
 }
 
 .c-infos {
@@ -235,6 +268,9 @@ body {
   padding-top: 50%;
   max-width: 30rem;
 }
+.c-merlin .c-merlin__card h4, .c-merlin .c-merlin__card h5, .c-merlin .c-merlin__card p, .c-merlin .c-merlin__card td {
+  text-shadow: 0px 0px 5px black;
+}
 
 .c-slide-2 img {
   height: 100vh;
@@ -269,6 +305,9 @@ body {
 }
 .c-header .c-human h1 {
   font-family: "Rubik", sans-serif;
+}
+.c-header .c-navbar__link {
+  text-shadow: 0px 0px 5px black;
 }
 
 .c-orbita {

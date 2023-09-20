@@ -4,7 +4,12 @@
 
 $font-destaque: 'Rubik', sans-serif;
 
-.c-equip3{
+@mixin more-servises(){
+    width: 100%;
+    height: 86vh;
+};
+
+.c-header{
     @include backgroundImage(url(../../imgs/falcon9/01.jpg));
 
     .c-falcon{
@@ -95,19 +100,9 @@ $font-destaque: 'Rubik', sans-serif;
 }
 
 .c-more-services{
-    width: 100%;
-    height: 86vh;
+    @include more-servises();
 
     .c-more-services__card{
         padding-top: 50%;
     }
-}
-
-.c-footer{
-    background-color: #000;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    max-width: 30rem;
-    font-size: 0.8rem;
 }

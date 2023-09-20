@@ -19,19 +19,26 @@
     margin-top: 13rem;
 }
 
+@mixin footer(){
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 30rem;
+    font-size: 0.8rem;
+}
+
 body{
     background-color: #000
 }
 
-.c-navbar{
-    border: none !important;
-}
+
 
 .c-equip3{
     @include backgroundImage(url(../imgs/home/01.jpg));
 
     .c-equip3-card{
-        @include cards()
+        @include cards();
     }
 }
 
@@ -39,7 +46,7 @@ body{
     @include backgroundImage(url(../imgs/home/03.jpg));
 
     .c-equip2-card{
-        @include cards()
+        @include cards();
     }
 }
 
@@ -47,7 +54,7 @@ body{
     @include backgroundImage(url(../imgs/home/02.gif));
 
     .dragon-card{
-        @include cards()
+        @include cards();
     }
 }
 
@@ -55,15 +62,10 @@ body{
     @include backgroundImage(url(../imgs/home/04.jpg));
 
     .starship-card{
-        @include cards()
+        @include cards();
     }
 }
 
 .c-footer{
-    background-color: #000;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    max-width: 30rem;
-    font-size: 0.8rem;
+    @include footer();
 }

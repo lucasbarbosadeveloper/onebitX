@@ -1,3 +1,334 @@
 @import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+* {
+  color: #fff;
+}
+
+body {
+  background-color: #000;
+}
+
+.c-equip3 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imgs/home/01.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+}
+.c-equip3 .c-equip3-card {
+  border: none;
+  margin-top: 13rem;
+}
+
+.c-equip2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imgs/home/03.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+}
+.c-equip2 .c-equip2-card {
+  border: none;
+  margin-top: 13rem;
+}
+
+.dragon {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imgs/home/02.gif);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+}
+.dragon .dragon-card {
+  border: none;
+  margin-top: 13rem;
+}
+
+.starship {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imgs/home/04.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+}
+.starship .starship-card {
+  border: none;
+  margin-top: 13rem;
+}
+
+.c-footer {
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 30rem;
+  font-size: 0.8rem;
+}
+
+* {
+  color: #fff;
+}
+
+body {
+  background-color: #000;
+}
+
+.c-equip3 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imgs/home/01.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+}
+.c-equip3 .c-equip3-card {
+  border: none;
+  margin-top: 13rem;
+}
+
+.c-equip2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imgs/home/03.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+}
+.c-equip2 .c-equip2-card {
+  border: none;
+  margin-top: 13rem;
+}
+
+.dragon {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imgs/home/02.gif);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+}
+.dragon .dragon-card {
+  border: none;
+  margin-top: 13rem;
+}
+
+.starship {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imgs/home/04.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+}
+.starship .starship-card {
+  border: none;
+  margin-top: 13rem;
+}
+
+.c-footer {
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 30rem;
+  font-size: 0.8rem;
+}
+
+.c-header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../imgs/falcon9/01.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+}
+.c-header .c-falcon {
+  border: none;
+  padding-top: 18rem;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.507);
+  width: 100%;
+}
+.c-header .c-falcon h1 {
+  font-family: "Rubik", sans-serif;
+}
+
+.c-infos {
+  width: 100%;
+}
+.c-infos .c-infos-card {
+  height: 5rem;
+}
+
+.c-launches {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../imgs/falcon9/02.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+  padding-top: 8rem;
+}
+.c-launches .c-launches-card {
+  border: none;
+  max-width: 40rem;
+}
+.c-launches p {
+  line-height: 2rem;
+}
+
+.c-image {
+  height: 100vh;
+}
+.c-image img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.c-card {
+  position: absolute;
+  left: 10%;
+  bottom: 80%;
+  translate: -10% -80%;
+  margin: 0rem -3rem;
+  max-width: 30rem;
+}
+@media (max-width: 600px) {
+  .c-card {
+    bottom: 40%;
+    translate: -10% -40%;
+    margin: 0rem -5rem 0rem -2rem;
+  }
+}
+.c-card td, .c-card p {
+  text-shadow: 0px 0px 5px black;
+}
+
+.c-merlin {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../imgs/falcon9/08.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+  padding-top: 0rem;
+}
+.c-merlin .c-merlin__card {
+  padding-top: 50%;
+  max-width: 30rem;
+}
+
+.c-slide-2 img {
+  height: 100vh;
+  object-fit: cover;
+}
+.c-slide-2 p {
+  text-shadow: 0px 0px 10px black;
+}
+
+.c-more-services {
+  width: 100%;
+  height: 86vh;
+}
+.c-more-services .c-more-services__card {
+  padding-top: 50%;
+}
+
+.c-header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../imgs/humanFlight/01.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+}
+.c-header .c-human {
+  border: none;
+  padding-top: 18rem;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.507);
+  width: 100%;
+}
+.c-header .c-human h1 {
+  font-family: "Rubik", sans-serif;
+}
+
+.c-orbita {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../imgs/humanFlight/02.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+  width: 100%;
+}
+.c-orbita .c-orbita__card {
+  max-width: 30rem;
+  text-shadow: 0px 0px 5px black;
+}
+
+.c-estacao {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../imgs/humanFlight/03.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+  width: 100%;
+}
+.c-estacao .c-estacao__card {
+  max-width: 30rem;
+  text-shadow: 0px 0px 5px black;
+}
+
+.c-lua {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../imgs/humanFlight/04.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+  width: 100%;
+}
+.c-lua .c-lua__card {
+  max-width: 30rem;
+  text-shadow: 0px 0px 5px black;
+}
+
+.c-marte {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../imgs/humanFlight/05.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9rem;
+  width: 100%;
+}
+.c-marte .c-marte__card {
+  max-width: 30rem;
+  text-shadow: 0px 0px 5px black;
+}
 
 /*# sourceMappingURL=humanSpace.css.map */

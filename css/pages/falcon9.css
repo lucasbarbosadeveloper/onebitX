@@ -9,10 +9,6 @@ body {
   background-color: #000;
 }
 
-.c-navbar {
-  border: none !important;
-}
-
 .c-equip3 {
   width: 100%;
   height: 100vh;
@@ -78,7 +74,7 @@ body {
   font-size: 0.8rem;
 }
 
-.c-equip3 {
+.c-header {
   width: 100%;
   height: 100vh;
   background-image: url(../../imgs/falcon9/01.jpg);
@@ -87,13 +83,13 @@ body {
   background-repeat: no-repeat;
   padding-top: 9rem;
 }
-.c-equip3 .c-falcon {
+.c-header .c-falcon {
   border: none;
   padding-top: 18rem;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.507);
   width: 100%;
 }
-.c-equip3 .c-falcon h1 {
+.c-header .c-falcon h1 {
   font-family: "Rubik", sans-serif;
 }
 
@@ -179,15 +175,6 @@ body {
 }
 .c-more-services .c-more-services__card {
   padding-top: 50%;
-}
-
-.c-footer {
-  background-color: #000;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  max-width: 30rem;
-  font-size: 0.8rem;
 }
 
 /*# sourceMappingURL=falcon9.css.map */

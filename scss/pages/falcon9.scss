@@ -86,7 +86,7 @@ $font-destaque: 'Rubik', sans-serif;
     padding-top: 0rem;
 
     .c-merlin__card{
-        padding-top: 50%;
+        padding-top: 200px;
         max-width: 30rem;
 
         h4, h5, p, td{
@@ -110,6 +110,6 @@ $font-destaque: 'Rubik', sans-serif;
     @include more-servises();
 
     .c-more-services__card{
-        padding-top: 50%;
+        padding-top: 300px;
     }
 }

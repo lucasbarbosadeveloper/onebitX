@@ -3,7 +3,7 @@
   color: #fff;
 }
 
-body {
+.c-body {
   background-color: #000;
 }
 
@@ -173,7 +173,7 @@ body {
   padding-top: 0rem;
 }
 .c-merlin .c-merlin__card {
-  padding-top: 50%;
+  padding-top: 200px;
   max-width: 30rem;
 }
 .c-merlin .c-merlin__card h4, .c-merlin .c-merlin__card h5, .c-merlin .c-merlin__card p, .c-merlin .c-merlin__card td {
@@ -193,7 +193,7 @@ body {
   height: 86vh;
 }
 .c-more-services .c-more-services__card {
-  padding-top: 50%;
+  padding-top: 300px;
 }
 
 /*# sourceMappingURL=falcon9.css.map */
